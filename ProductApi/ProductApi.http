@@ -1,4 +1,4 @@
-@ProductApi_HostAddress = https://localhost:5000
+@ProductApi_HostAddress = http://localhost:7000
 
 GET {{ProductApi_HostAddress}}/api/product
 Accept: application/json
@@ -9,7 +9,9 @@ POST {{ProductApi_HostAddress}}/api/product
 Content-Type: application/json
 
 {
-  //Product
+  "id": 1,
+  "name": "Apple",
+  "price": 1.30
 }
 
 ###
