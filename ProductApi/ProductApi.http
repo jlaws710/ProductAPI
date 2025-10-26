@@ -1,0 +1,15 @@
+@ProductApi_HostAddress = https://localhost:5000
+
+GET {{ProductApi_HostAddress}}/api/product
+Accept: application/json
+
+###
+
+POST {{ProductApi_HostAddress}}/api/product
+Content-Type: application/json
+
+{
+  //Product
+}
+
+###
